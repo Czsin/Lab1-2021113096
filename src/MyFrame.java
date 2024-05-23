@@ -11,7 +11,7 @@ public class MyFrame extends JFrame {
     public MyFrame(String title, boolean ifBack) {
         super(title);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(1800, 900);
+        this.setSize(1000, 900);
     }
 
     public void setPanel(JPanel panel) {
